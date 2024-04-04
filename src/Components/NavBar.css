@@ -1,0 +1,122 @@
+/*navbar styling*/
+
+.Nav {
+    border-color: black;
+    border-radius: 15px;
+    width: 900px;
+    height: 80px;
+    margin: 0; /* Adjust the top margin (20px in this case) */
+    display: flex;
+    
+    position: absolute;
+    top: 0; 
+    
+    right: 111px;
+     width: 100%;
+    
+    
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  
+  .Nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    
+    gap:1rem;
+    align-items: center;
+    color: black;
+    
+  }
+  
+  
+  
+  .Nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+  }
+  
+  
+  
+  .Nav-img{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    right: 850px;
+  
+  }
+  
+  .SU{
+    box-sizing: border-box;
+    background-color: rgb(178, 219, 102);
+    border-radius: 16px;
+    width: 150px ;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  .SearchBar{
+    
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+    display: flex;
+    background-color: #f46f16ab;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+  
+    
+  }
+  .SearchBar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 15px;
+    color: beige;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .SearchBar button img{
+   
+    width: 20px;
+    height: 20px;
+  
+  
+  }
+  
+  .SearchBar button{
+    border: 2px;
+    border-color: #f4a976;
+
+   border-style: solid;
+
+    border-radius:50% ;
+    background: #f46e16;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .SearchBar button:hover{
+    border-color: beige;
+  }
