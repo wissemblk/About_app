@@ -1,10 +1,10 @@
 import ListCrew from "./ListCrew";
-import  "./Rectangle.css";
+import  "../Styles/Rectangle.css";
 export default function Rectangle() {
   return (
     <>
       <div className="rectangle">
-        <img src="/HeartPeople.png" className="HP" />
+        <img src="../Img/HeartPeople.png" className="HP" />
         <h3 className="font-titan-one">About us</h3>
 
         <p className="font">
@@ -32,8 +32,8 @@ export default function Rectangle() {
               fikalibrary24@gmail.com
             </a>
           </p>
-          <img src="/EmailLetter.png" className="EL1" />
-          <img src="/EmailLetter2.png" className="EL2" />
+          <img src="../Img/EmailLetter.png" className="EL1" />
+          <img src="../Img/EmailLetter2.png" className="EL2" />
         </div>
       </div>
     </>

@@ -1,4 +1,4 @@
-import  "./ListCrew.css";
+import  "../Styles/ListCrew.css";
 export default function ListCrew() {
     const items = [
       "Bellaha Manel Souad",

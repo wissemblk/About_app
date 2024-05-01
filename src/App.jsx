@@ -1,5 +1,5 @@
 import React from "react"; 
-import "./Components/Styling.css";
+import "./Styles/Styling.css";
 import Navbar from "./Components/NavBar.jsx";
 import Rectangle from "./Components/Rectangle.jsx";
 
